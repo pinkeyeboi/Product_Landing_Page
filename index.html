@@ -1,45 +1,49 @@
 <html>
 <meta charset="UTF-8">
-    <style>
-        #header-img{
-            margin: 5rem;
-            margin-left: 45%;
-        }
-
-
-    </style>
+<link rel="stylesheet" type="text/css" href="css/custom-style.css">
+    
 <head>
+    
 
 </head>
 
 <body>
 
     <header id="header">
-
+        
         <img id="header-img" src="https://www.silviafashion.com/wp-content/uploads/2018/02/logo-horizontal-300.png">
         <nav id="nav-bar">
             <a class="nav-link" href="#buy-on-silvia-fashion">Buy on Silvia Fashion</a>
-            <a class="nav-link" href="#subscribe-for-newsletters">Subscribe for newsletters</a>
+            <a class="nav-link" href="#subscribe-for-newsletters">Subscribe for Newsletters</a>
             <a class="nav-link" href="#learn-more">Learn more</a>
-
+        <h1>Product Landing Page</h1>
             <section id="buy-on-silvia-fashion"></section>
             <section id="subscribe-for-newsletters"></section>
             <section id="learn-more">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZHlPZOYK-w8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>   
+               <center> <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZHlPZOYK-w8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe></center>   
             </section>
         </nav>
 
     </header>
+    <center>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post" enctype="text/plain">
+        <input id="email" type="email" placeholder="Subscribe for Newsletters!" name="email"><br>
+            <input type="submit" id="submit" class="button" value="Submit"></input>
+        </input>
+    </form>
+    <p>
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div> 
 
-    <h1>Product Landing Page</h1>
-        <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
-
-    <video width="320" height="240" controls id="video">
-        <source src="https://www.youtube.com/watch?v=ZHlPZOYK-w8" type="video/mp4">
-
-    </video>
+    </p>
+</center>
 
 
+
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
 </body>
 </html>
