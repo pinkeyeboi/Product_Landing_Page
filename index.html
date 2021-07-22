@@ -1,6 +1,101 @@
 <html>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="css/custom-style.css">
+<style>
+
+    div{
+        
+    }
+    body{
+        
+        font-family: Arial, Helvetica, sans-serif;
+        color: azure;
+        font-weight: 100;
+        line-height: 1.4;
+         margin: auto;
+         background-image: url("images/alpaca-4.jpg");
+
+    }    
+    h1{
+        font-size: 2rem;
+        color: white;
+    }
+
+    #nav-bar{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #cc0000;
+    }
+    a{
+        float: left;
+        display: block;
+        color: #161f36;
+        text-align: end;
+        padding: 14px 16px;
+        text-decoration: none;
+        
+    }
+    a:hover{
+        background-color: white;
+    }
+        
+    .nav-link{
+
+    }
+        section{
+            padding-bottom: 5rem;
+        
+    }
+    
+
+    #header-img{
+            margin: 5rem;
+            margin-left: 45%;
+            margin-bottom: 5rem;
+        }
+
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+.flex-container{
+    display: flex;
+    color: black;
+    
+
+}
+.flex-container > div{
+    text-align: center;
+    font-family: Arial;
+    width: 200px;
+    margin: 95px;
+    line-height: 75px;
+    font-size: 25px;
+    padding-left: 7%;
+    color: #cc0000;
+
+    
+}
+
+    </style>
     
 <head>
     
@@ -10,38 +105,39 @@
 <body>
 
     <header id="header">
-        
-        <img id="header-img" src="https://www.silviafashion.com/wp-content/uploads/2018/02/logo-horizontal-300.png">
         <nav id="nav-bar">
+
             <a class="nav-link" href="#buy-on-silvia-fashion">Buy on Silvia Fashion</a>
             <a class="nav-link" href="#subscribe-for-newsletters">Subscribe for Newsletters</a>
             <a class="nav-link" href="#learn-more">Learn more</a>
-        <h1>Product Landing Page</h1>
+
             <section id="buy-on-silvia-fashion"></section>
             <section id="subscribe-for-newsletters"></section>
-            <section id="learn-more">
-               <center> <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZHlPZOYK-w8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe></center>   
+            <section id="learn-more">  
             </section>
         </nav>
 
+        <img id="header-img" src="https://www.silviafashion.com/wp-content/uploads/2018/02/logo-horizontal-300.png">
+        <center><b><u><h1>Product Landing Page</h1></u></b></center>
+        <center> <iframe id="video" width="500" height="300" src="https://www.youtube-nocookie.com/embed/ZHlPZOYK-w8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe></center> 
+
     </header>
     <center>
-    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post" enctype="text/plain">
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post" enctype="text/plain"><br>
         <input id="email" type="email" placeholder="Subscribe for Newsletters!" name="email"><br>
-            <input type="submit" id="submit" class="button" value="Submit"></input>
+            <br><input type="submit" id="submit" class="button" value="Submit"></input>
         </input>
     </form>
     <p>
         <div class="flex-container">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
+            <div>Instagram</div>
+            <div>Collections</div>
+            <div>About Silvia Fashion</div>
         </div> 
 
     </p>
 </center>
-
 
 
     <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
